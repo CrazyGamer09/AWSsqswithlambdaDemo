@@ -1,0 +1,25 @@
+{
+  "name": "aw_ssqswithlambda_demo",
+  "version": "0.1.0",
+  "bin": {
+    "aw_ssqswithlambda_demo": "bin/aw_ssqswithlambda_demo.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "aws-cdk": "2.38.0",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-lambda": "^1.173.0",
+    "@aws-cdk/aws-lambda-destinations": "^1.173.0",
+    "@aws-cdk/aws-lambda-event-sources": "^1.173.0",
+    "@aws-cdk/aws-sqs": "^1.173.0",
+    "@aws-cdk/core": "^1.173.0",
+    "aws-cdk-lib": "2.38.0",
+    "constructs": "^10.0.0"
+  }
+}
